@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    background-image: url(https://img2.akspic.ru/crops/6/2/5/5/25526/25526-sfera-kosmos-temnota-luna-zemlya-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    color: rgb(225, 231, 237);
+    margin: 30px;
+    font: normal 16px 'Roboto', sans-serif; 
+}
+
+.social {
+    position:absolute;
+    top:0;
+    right:0;
+    margin: 30px;
+}
+.avatar {
+    width: 250px;
+    border-radius: 16px;
+    box-shadow: 6px 6px 16px rgba(208, 204, 204, 0.8);
+}
+
+.info p {
+    margin: 8px;
+    font-size: 16px;
+    font-style: italic;
+}
+.info {
+    display: flex;
+}
+
+.infoText {
+    margin-left: 24px;
+}
+
+@media (max-width: 900px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    .social {
+        display: none;
+    }
+}
+
+h1 {
+    margin-left: 35px;
+}
+
+h1, h2 {
+    color: rgb(194, 162, 175);
+    margin-bottom: 12px;
+}
+
+
+.button {
+    background-color: rgb(188, 188, 188);
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(25, 31, 37);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(194, 162, 175);
+    color: rgb(25, 31, 37);
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(194, 162, 175);
+}
+
+a:active {
+    color: rgb(33, 0, 165);
+}
+
+table {
+    width: 35%;
+}
+
+table th {
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+table td {
+    font-weight: 200;
+}
+
+.group label {
+    display: block;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.group input, .group textarea {
+    width: 25%;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: rgb(194, 162, 175);
+    padding: 12px;
+    outline: none;
+    font-family: inherit;
+}
+
+/* Change Input background to transparent on autocomplete form */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+
+
